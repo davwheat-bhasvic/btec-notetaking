@@ -2,11 +2,14 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-- [Interrupts](#interrupts)
-- [Instruction sets](#instruction-sets)
-
 <!-- omit in toc -->
 # BTEC Computing Notetaking
+
+<!-- omit in toc -->
+## Contents
+
+- [Interrupts](#interrupts)
+- [Instruction sets](#instruction-sets)
 
 ## Interrupts
 
