@@ -33,9 +33,9 @@ Assembly language is very efficient as you control exactly what the CPU is doing
 Try running this assembly code in the [LMC](http://www.yorku.ca/sychen/research/LMC/LMCInstructions.html)!
 
 ```nasm
-        INP         # Get input
-        STA A       # Store input in accumulator
-LOOP    LDA A       # Begin loop / load value from accumulator into register A
+        INP         /* Get input */
+        STA A       /* Store input in accumulator */
+LOOP    LDA A       /* Begin loop / load value from accumulator into register A */
         OUT
         SUB ONE
         STA A
