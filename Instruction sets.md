@@ -74,7 +74,7 @@ High-level languages can fit multiple lines of assembly into a single line of th
 
 - More complex (and expensive) hardware
 - Easier to code for
-- One instruction might use multiple CPU cycles
+- Multiple instruction cycles per instruction
 - Greater energy consumption
 - Used in AMD and Intel processors
 - Physically larger, so more silicon needed to produce the processors
