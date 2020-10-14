@@ -2,6 +2,13 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
+<!-- omit in toc -->
+# Interrupts
+
+<!-- omit in toc -->
+## Contents
+
+- [What are interrupts](#what-are-interrupts)
 - [What if something needs CPU time urgently?](#what-if-something-needs-cpu-time-urgently)
 - [When an interrupt is received](#when-an-interrupt-is-received)
 - [Types of interrupt](#types-of-interrupt)
@@ -10,10 +17,9 @@
 - [Interrupt system](#interrupt-system)
 - [What about after the ISR is complete?](#what-about-after-the-isr-is-complete)
 
-<!-- omit in toc -->
-# Interrupts
+## What are interrupts
 
-Tasks for the processor need to be scheduled by the OS.
+Interrupts are used to ask for the execution time on the processor.
 
 Many algorithms are available to decide which order these scheduled tasks are executed in:
 

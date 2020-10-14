@@ -2,13 +2,20 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
+
+<!-- omit in toc -->
+# Instruction sets
+
+<!-- omit in toc -->
+## Contents
+
+- [What are instruction sets?](#what-are-instruction-sets)
 - [Useful resources](#useful-resources)
 - [Little Man Computer](#little-man-computer)
 - [Assembly vs High-level vs Low-level](#assembly-vs-high-level-vs-low-level)
 - [RISC and CISC](#risc-and-cisc)
 
-<!-- omit in toc -->
-# Instruction sets
+## What are instruction sets?
 
 An instruction set is a limited set of text instructions that can be used to program a CPU.
 
