@@ -8,7 +8,7 @@
 <!-- omit in toc -->
 ## Contents
 
-- [What are interrupts](#what-are-interrupts)
+- [What are interrupts?](#what-are-interrupts)
 - [What if something needs CPU time urgently?](#what-if-something-needs-cpu-time-urgently)
 - [When an interrupt is received](#when-an-interrupt-is-received)
 - [Types of interrupt](#types-of-interrupt)
@@ -17,7 +17,7 @@
 - [Interrupt system](#interrupt-system)
 - [What about after the ISR is complete?](#what-about-after-the-isr-is-complete)
 
-## What are interrupts
+## What are interrupts?
 
 Interrupts are used to ask for the execution time on the processor.
 
