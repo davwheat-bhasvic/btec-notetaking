@@ -8,13 +8,21 @@
 <!-- omit in toc -->
 ## Contents
 
-- [Interrupts](#interrupts)
-- [Instruction sets](#instruction-sets)
+- [Architecture](#architecture)
+  - [Interrupts](#interrupts)
+  - [Instruction sets](#instruction-sets)
+  - [Parallel processing](#parallel-processing)
 
-## Interrupts
+## Architecture
+
+### Interrupts
 
 [Interrupts, types of interrupt, what happens when the OS receives an interrupt, and more.](Interrupts.md)
 
-## Instruction sets
+### Instruction sets
 
 [Instruction sets, assembly, little man computer, RISC, CISC, and more.](Instruction%20sets.md)
+
+### Parallel processing
+
+[Multi-threading, multi processor execution, and more.](Parallel%20processing.md)
