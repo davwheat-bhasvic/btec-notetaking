@@ -12,6 +12,7 @@
   - [Interrupts](#interrupts)
   - [Instruction sets](#instruction-sets)
   - [Parallel processing](#parallel-processing)
+  - [Performance factors](#performance-factors)
 
 ## Architecture
 
@@ -26,3 +27,7 @@
 ### Parallel processing
 
 [Multi-threading, multi processor execution, and more.](Parallel%20processing.md)
+
+### Performance factors
+
+[The factors that affect CPU performance and execution speed](Performance%20factors.md)
