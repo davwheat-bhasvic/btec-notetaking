@@ -5,6 +5,8 @@
 <!-- omit in toc -->
 # BTEC Computing Notetaking
 
+This is a directory listing of my notes. Pages are ordered by the date they were created.
+
 <!-- omit in toc -->
 ## Contents
 
