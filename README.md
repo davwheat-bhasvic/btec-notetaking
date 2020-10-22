@@ -15,6 +15,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
   - [Instruction sets](#instruction-sets)
   - [Parallel processing](#parallel-processing)
   - [Performance factors](#performance-factors)
+  - [Features and implications of different microarchitectures](#features-and-implications-of-different-microarchitectures)
 
 ## Architecture
 
@@ -33,3 +34,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 ### Performance factors
 
 [The factors that affect CPU performance and execution speed](Performance%20factors.md)
+
+### Features and implications of different microarchitectures
+
+[Embedded vs mobile vs desktop vs laptop vs server computers.](Features%20and%20implications%20of%20different%20microarchitectures.md)
