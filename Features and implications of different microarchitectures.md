@@ -127,7 +127,7 @@ These are quite different to microcomputer CPUs. The priority for servers is tha
 
 Servers almost always have hardware redundancy, such as dual power supplies (in case one fails), huge amount of RAM, very fast and redundant storage, and a CPU with many cores.
 
-The reason for this to to deal with large surges in requests, and to prevent the server failing.
+The reason for this is to deal with large surges in requests, and to prevent the server failing.
 
 Servers are designed to never switch off, meaning their components are rated and tested for 24/7 operation for long periods of time. If a power supply fails, instead of turning off, the server switches to the other.
 
