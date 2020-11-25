@@ -14,6 +14,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
   - [Parallel processing](#parallel-processing)
   - [Performance factors](#performance-factors)
   - [Features and implications of different microarchitectures](#features-and-implications-of-different-microarchitectures)
+  - [Data structures](#data-structures)
 
 ## Architecture
 
@@ -36,3 +37,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 ### Features and implications of different microarchitectures
 
 [Embedded vs mobile vs desktop vs laptop vs server computers.](Features%20and%20implications%20of%20different%20microarchitectures.md)
+
+### Data structures
+
+[Data structures](Data%20structures.md)
