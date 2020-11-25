@@ -2,13 +2,11 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-<!-- omit in toc -->
-# BTEC Computing Notetaking
+# BTEC Computing Notetaking  <!-- omit in toc -->
 
 This is a directory listing of my notes. Pages are ordered by the date they were created.
 
-<!-- omit in toc -->
-## Contents
+## Contents <!-- omit in toc -->
 
 - [Architecture](#architecture)
   - [Interrupts](#interrupts)

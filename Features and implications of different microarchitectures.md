@@ -3,22 +3,24 @@
 </p>
 
 <!-- omit in toc -->
-# Features and implications of different microarchitectures
 
-<!-- omit in toc -->
-## Contents
+# Features and implications of different microarchitectures <!-- omit in toc -->
 
-- [Embedded & mobile CPUs](#embedded--mobile-cpus)
-  - [System-on-a-chip](#system-on-a-chip)
-  - [Mobile CPUs & RISC](#mobile-cpus--risc)
-    - [Task](#task)
-- [Microcomputer CPUs](#microcomputer-cpus)
-  - [Pros and cons](#pros-and-cons)
-  - [Microcomputer CPUs and CISC](#microcomputer-cpus-and-cisc)
-  - [Task](#task-1)
-- [Server CPUs](#server-cpus)
-  - [Comparison to microcomputers](#comparison-to-microcomputers)
-  - [Pros and cons](#pros-and-cons-1)
+## Contents <!-- omit in toc -->
+
+- [Features and implications of different microarchitectures](#features-and-implications-of-different-microarchitectures)
+  - [Embedded & mobile CPUs](#embedded--mobile-cpus)
+    - [System-on-a-chip](#system-on-a-chip)
+    - [Mobile CPUs & RISC](#mobile-cpus--risc)
+      - [Task](#task)
+  - [Microcomputer CPUs](#microcomputer-cpus)
+    - [Pros and cons](#pros-and-cons)
+    - [Microcomputer CPUs and CISC](#microcomputer-cpus-and-cisc)
+    - [Task](#task-1)
+  - [Server CPUs](#server-cpus)
+    - [Comparison to microcomputers](#comparison-to-microcomputers)
+    - [Pros and cons](#pros-and-cons-1)
+- [Server CPU vs Desktop CPU vs Mobile CPU](#server-cpu-vs-desktop-cpu-vs-mobile-cpu)
 
 ## Embedded & mobile CPUs
 
@@ -34,8 +36,8 @@ Compared to microcomputers (PCs)...
 These computers tend to use a system-on-a-chip (SoC), meaning all the main components of the computer (CPU, RAM, GPU, storage) are on a single silicon ship, which is, about the same size of a normal desktop CPU.
 
 > ![](img/galaxy-s4-mobo.jpg)
-> 
-> *An example of a system-on-a-chip: the Samsung Galaxy S4.*
+>
+> _An example of a system-on-a-chip: the Samsung Galaxy S4._
 
 SoCs tend to require far less power to perform their functions. This is important, as mobile devices need to run off of batteries. They also produce far less heat, meaning they can normally be passively cooled (cooled without fans).
 
@@ -72,8 +74,8 @@ The main differences between microcomputers and mobile/embedded systems are:
 - CPU is much larger
 
 > ![](img/intel-coffee-lake.jpg)
-> 
-> *An image of a modern Intel Coffee Lake CPU.*
+>
+> _An image of a modern Intel Coffee Lake CPU._
 
 ### Pros and cons
 
@@ -101,7 +103,7 @@ However, it also means that:
 ### Task
 
 > Some laptops are beginning to use ARM processors. Why is this?
-> 
+>
 > Write a short explanation.
 
 Apple's Mac product range is transitioning from x86-64 CPUs to ARM CPUs. There are many reasons for this.
@@ -135,7 +137,7 @@ If an organisation's server fails, it can cost them a lot of money and time.
 
 > ![](img/redundant-psus.jpeg)
 >
-> *An exmaple of a server's redundant power supplies.*
+> _An exmaple of a server's redundant power supplies._
 
 ### Comparison to microcomputers
 
@@ -167,15 +169,15 @@ However, there are some differences:
 
 # Server CPU vs Desktop CPU vs Mobile CPU
 
-|                       |         Server CPU         |       Desktop CPU       |                  Mobile CPU                  |
-| --------------------- | :------------------------: | :---------------------: | :------------------------------------------: |
-| Name                  |   AMD Threadripper 3990X   |     AMD Ryzen 3700X     |               Snapdragon 865+                |
-| Cores                 |             64             |            8            |                      8                       |
-| Threads               |            128             |           16            |                      8                       |
-| TDP (heat output)     |            280W            |           65W           |                      5W                      |
-| Clock Speed           |          2.9 GHz           |         3.6 GHz         | 1 x 3.1 GHz<br/>3 x 2.42 GHz<br/>4 x 1.8 GHz |
-| Boost Speed           |          4.3 GHz           |         4.4 GHz         |                     N/A                      |
-| ECC support           |            Yes             |           No            |                      No                      |
-| L2 cache              | 64 x 512 KB  (32 MB total) | 8 x 512KB (4 MB total)  |                 1.8 MB total                 |
-| L3 cache              | 16 x 16 MB (256 MB total)  | 2 x 16 MB (32 MB total) |                  7 MB total                  |
-| Manufacturing process |            7nm             |           7nm           |                     7nm                      |
+|                       |        Server CPU         |       Desktop CPU       |                  Mobile CPU                  |
+| --------------------- | :-----------------------: | :---------------------: | :------------------------------------------: |
+| Name                  |  AMD Threadripper 3990X   |     AMD Ryzen 3700X     |               Snapdragon 865+                |
+| Cores                 |            64             |            8            |                      8                       |
+| Threads               |            128            |           16            |                      8                       |
+| TDP (heat output)     |           280W            |           65W           |                      5W                      |
+| Clock Speed           |          2.9 GHz          |         3.6 GHz         | 1 x 3.1 GHz<br/>3 x 2.42 GHz<br/>4 x 1.8 GHz |
+| Boost Speed           |          4.3 GHz          |         4.4 GHz         |                     N/A                      |
+| ECC support           |            Yes            |           No            |                      No                      |
+| L2 cache              | 64 x 512 KB (32 MB total) | 8 x 512KB (4 MB total)  |                 1.8 MB total                 |
+| L3 cache              | 16 x 16 MB (256 MB total) | 2 x 16 MB (32 MB total) |                  7 MB total                  |
+| Manufacturing process |            7nm            |           7nm           |                     7nm                      |

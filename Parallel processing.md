@@ -2,11 +2,9 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-<!-- omit in toc -->
-# Parallel processing
+# Parallel processing <!-- omit in toc -->
 
-<!-- omit in toc -->
-## Contents
+## Contents <!-- omit in toc -->
 
 - [What is parallel processing?](#what-is-parallel-processing)
 - [Why do we need parallel processing?](#why-do-we-need-parallel-processing)
@@ -28,14 +26,15 @@ Breaking up an overall task into multiple smaller tasks often allows it task to 
 Parallel processing is common in large supercomputers.
 
 > ![](img/ibm-blue-gene-p-supercomputer.jpg)
-> 
-> *The massively parallel IBM Blue Gene/P supercomputer.*
+>
+> _The massively parallel IBM Blue Gene/P supercomputer._
 
 ## Why do we need parallel processing?
 
 CPU clock speeds used to increase significantly every year as technology allowed transistors to be made smaller and smaller.
 
 Faster clock speeds mean:
+
 - the CPU executes more instructions per second
 - more tasks can be completed in the same amount of time
 
@@ -55,12 +54,12 @@ This ends up turning the execution of 2 instructions from 8 clock cycles, down t
 
 **Pipelining only works in sequential execution.** If the task has a branch (i.e. goes to a different part of the code), the fetched and decoded instructions will be incorrect, as it didn't know the program was going to branch to a different set of instructions.
 
-> ![](img/pipelining.png)
-> *A diagram representing CPU pipelining.*
+> ![](img/pipelining.png) > _A diagram representing CPU pipelining._
 
 ## Method 2: multi-processing
 
 Multi-processing uses multiple cores where...
+
 - a single CPU has multiple processing units (cores)
 - and the cores can independently process instructions
 
@@ -68,8 +67,7 @@ In theory, a dual-core processor can process instructions twice as fast as a sin
 
 Having multiple cores still allows for faster execution, as two different programs can run on the two cores.
 
-> ![](img/parallel-processing.png)
-> *Diagram showing how multiple cores can be used in parallel.*
+> ![](img/parallel-processing.png) > _Diagram showing how multiple cores can be used in parallel._
 
 ### Multiple CPUs
 
@@ -106,6 +104,7 @@ All of these threads are executed extremely quickly, meaning you won't see them.
 Browsers often split up each browser tab into separate threads or processes.
 
 Each tab will then need threads to...
+
 - parse the stylesheet
 - render the DOM
 - paint the DOM

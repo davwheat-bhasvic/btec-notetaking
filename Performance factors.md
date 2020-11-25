@@ -2,11 +2,9 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-<!-- omit in toc -->
-# Performance factors
+# Performance factors <!-- omit in toc -->
 
-<!-- omit in toc -->
-## Contents
+## Contents <!-- omit in toc -->
 
 - [Why is CPU performance important?](#why-is-cpu-performance-important)
 - [Factors that affect execution speed](#factors-that-affect-execution-speed)
@@ -117,7 +115,7 @@ Normal consumers most likely won't notice this, but when applications need to pe
 - Overclocking
   - Overclocking allows us to increase the clock speed of our processors above the base speeds, at the expense of more heat and power and possible instability.
 - Adding more and faster RAM
-  - Adding more RAM means the system doesn't have to refer back to secondary storage as often, meaning that 
+  - Adding more RAM means the system doesn't have to refer back to secondary storage as often, meaning that
 - New CPU
   - May have more cores, faster clock speed, more cores, more cache memory, or contain more efficient implementations of the instruction set.
 - Parallel processing

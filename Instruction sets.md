@@ -2,12 +2,9 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
+# Instruction sets <!-- omit in toc -->
 
-<!-- omit in toc -->
-# Instruction sets
-
-<!-- omit in toc -->
-## Contents
+## Contents <!-- omit in toc -->
 
 - [What are instruction sets?](#what-are-instruction-sets)
 - [Useful resources](#useful-resources)
@@ -65,7 +62,7 @@ High-level languages can fit multiple lines of assembly into a single line of th
 
 **High-level languages work on many systems.** It is up to the compiler to convert the source code into an executable binary for each architecture.
 
-## RISC and CISC 
+## RISC and CISC
 
 **Reduced Instruction Set Computer**
 

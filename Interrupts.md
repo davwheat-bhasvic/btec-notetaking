@@ -2,11 +2,9 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-<!-- omit in toc -->
-# Interrupts
+# Interrupts <!-- omit in toc -->
 
-<!-- omit in toc -->
-## Contents
+## Contents <!-- omit in toc -->
 
 - [What are interrupts?](#what-are-interrupts)
 - [What if something needs CPU time urgently?](#what-if-something-needs-cpu-time-urgently)
