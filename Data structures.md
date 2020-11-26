@@ -14,6 +14,17 @@
   - [Questions](#questions)
     - [Answers](#answers-1)
   - [Where are queues actually used?](#where-are-queues-actually-used)
+- [Matrices](#matrices)
+  - [Accessing data in matrices](#accessing-data-in-matrices)
+  - [Matrix as 2D array example](#matrix-as-2d-array-example)
+  - [Storing matrices - column-major and row-major](#storing-matrices---column-major-and-row-major)
+  - [Matrix mathematics](#matrix-mathematics)
+    - [Addition](#addition)
+      - [Answer](#answer)
+    - [Subtraction](#subtraction)
+      - [Answer](#answer-1)
+    - [Multiplication](#multiplication)
+      - [Question](#question)
 
 ## Stacks
 
@@ -86,3 +97,146 @@ Set up a queue which holds 5 integers. What values are left in the queue and wha
 Printers! When we queue something for printing, jobs are completed in the order they are sent. Otherwise it would be a little unfair to the poor person waiting for their print job.
 
 Media streaming. When you watch video, the stream is played in the order the chunks are received. You wouldn't want it skipping ahead, then playing backwards.
+
+## Matrices
+
+A **matrix** is a mathematical construct for a table of numbers, usually represented as an array in computing. In computing, we store matrices as 2D arrays.
+
+A matrix's size is represented by its **dimensions** (also known as its order). These dimensions are represented by RxC, where R is the number of rows and C is the number of columns.
+
+> **Be warned!** You might be used to referring to dimensions as width x height. **Matrices are the opposite!**
+
+```
+1  7
+5  3
+2  8
+```
+
+This matrix would have the dimensions `3x2`.
+
+### Accessing data in matrices
+
+To access data in a matrix, we need to use two indices: one to show the row, and the other to show the column. These two indices then allow us to find the one item of data in that position.
+
+The first index is the row number, and the second index is the column number. This is called row-major ordering as the row index comes first.
+
+For example `[4, 2]` (zero-indexed) is the 5th row, and 3rd column.
+
+### Matrix as 2D array example
+
+|     |     |     |     |     |
+| :-: | :-: | :-: | :-: | :-: |
+|  4  |  2  |  1  |  3  |  5  |
+|  7  |  9  | 10  |  7  |  8  |
+| 14  | 13  | 15  | 11  | 12  |
+
+1. `[0, 3]` - `3`
+2. `[2, 2]` - `15`
+3. `[1, 4] x [2, 1]` - `8 x 13` = `104`
+
+### Storing matrices - column-major and row-major
+
+There's two different ways to represent matrices: **row-major order** or **column-major order**.
+
+In **row-major**, we store the matrix contents one by one, starting with the first row, moving between values from left to right, then to the next row. These values are stored next to each other in memory.
+
+In **column-major**, we go down the columns first, and then move to the next row.
+
+> ![](img/matrix-store-orders.jpg)
+>
+> A diagram showing the difference between row-major and column-major ordering.
+
+In an exam, you might be told an ordering method, and be given an array/matrix, and asked for the value at a certain index in memory.
+
+### Matrix mathematics
+
+You might be asked to perform different mathematical operations on matrices.
+
+#### Addition
+
+![](img/matrix-addition.png)
+
+In this example, two matrices are being added together.
+
+For addition, we simply layer the matrices on top of each other, and add the two values.
+
+For example, to work out the top-left value, we add the top-left values from the source matrices: `12 + 8 = 20`.
+
+##### Answer
+
+```
+20 20 24
+10 11 11
+ 9 12 12
+```
+
+#### Subtraction
+
+![](img/matrix-subtraction.png)
+
+In this example, two matrices are being subtracted from one another.
+
+For subtraction, we do the same as addition but we subtract values.
+
+For example, the top top-right value in the answer will be `12 - 8 = 4`.
+
+##### Answer
+
+```
+4  8  6
+0  1  1
+5  6  4
+```
+
+#### Multiplication
+
+![](img/matrix-multiplication.png)
+
+Matrix multiplication is challenging!
+
+You can see these aren't the same size: that's fine. We first have to rotate the first matrix by 90 degrees.
+
+```
+2     12 14 15
+3  x   5  6  6
+4      7  9  8
+```
+
+We then look at the first column. We take the first item in the left matrix (`2`) and multiply it by the first item in the other matrix's first column (`12`). `2 x 12 = 24`.
+
+After, we move to the next values down in both matrices: `3 x 5 = 15`.
+
+We repeat this until the end of the column, where we then go to the top of the next column and start from the beginning.
+
+After, we should be left with this:
+
+```
+2     12 14 15     24 28 30
+3  x   5  6  6  =  15 18 18
+4      7  9  8     28 36 32
+```
+
+Our final step is to total up the columns to finish with:
+
+```
+24 + 15 + 28 = 67
+28 + 18 + 36 = 82
+30 + 18 + 32 = 80
+```
+
+Which gives us a final answer of...
+
+```
+[ 67  82  80 ]
+```
+
+##### Question
+
+![](img/matrix-mult-question.png)
+
+<details>
+<summary>Answer</summary>
+
+![](img/matrix-mult-answer.png)
+
+</details>
