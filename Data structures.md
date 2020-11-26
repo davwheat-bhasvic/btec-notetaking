@@ -6,6 +6,9 @@
 
 ## Contents <!-- omit in toc -->
 
+- [Static and dynamic data structures](#static-and-dynamic-data-structures)
+  - [Static](#static)
+- [Dynamic](#dynamic)
 - [Stacks](#stacks)
   - [Push and pop excercise](#push-and-pop-excercise)
     - [Answers](#answers)
@@ -25,6 +28,36 @@
       - [Answer](#answer-1)
     - [Multiplication](#multiplication)
       - [Question](#question)
+
+
+## Static and dynamic data structures
+
+This isn't explicitly on the spec, but it's great to know anyway.
+
+When you store data in memory, you need to decide if it's static or dynamic.
+
+### Static
+
+An example of static data would be an array.
+
+When you create an array, you tell the compiler how big you want it to be. When the program is executed, it will reserve enough memory for the size you've specified. It never expands or shrinks.
+
+You cannot change the amount of memory reserved for the array while being run.
+
+Static data types can cause issues:
+
+- if you end up trying to save/read from higher memory addresses than you've reserved, the program will crash
+- if you reserve too much memory, you're being wasteful
+
+## Dynamic
+
+Dynamic variables don't have a fixed size in memory. An example of this is linked lists.
+
+With linked lists, each item has a pointer to the memory address where the next item in the list can be found.
+
+When you add more items to the list, more memory is allocated. Dynamic data is much easier to work with because of this.
+
+Queues and stacks are examples of dynamic data structures, which we will learn about later in this document.
 
 ## Stacks
 
@@ -124,11 +157,11 @@ For example `[4, 2]` (zero-indexed) is the 5th row, and 3rd column.
 
 ### Matrix as 2D array example
 
-|     |     |     |     |     |
-| :-: | :-: | :-: | :-: | :-: |
-|  4  |  2  |  1  |  3  |  5  |
-|  7  |  9  | 10  |  7  |  8  |
-| 14  | 13  | 15  | 11  | 12  |
+|       |       |       |       |       |
+| :---: | :---: | :---: | :---: | :---: |
+|   4   |   2   |   1   |   3   |   5   |
+|   7   |   9   |  10   |   7   |   8   |
+|  14   |  13   |  15   |  11   |  12   |
 
 1. `[0, 3]` - `3`
 2. `[2, 2]` - `15`
