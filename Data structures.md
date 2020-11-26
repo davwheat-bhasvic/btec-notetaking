@@ -40,7 +40,7 @@ Stacks are allocated memory dynamically: the grow and shrink as needed.
 >
 > A stack of plates!
 
-\*Please remember that the idea of a "stack" of items on top of each other is a way for humans to think of it. It's not stored like this in memory, but is instead programmed to behave like this.
+_Please remember that the idea of a "stack" of items on top of each other is a way for humans to think of it. It's not stored like this in memory, but is instead programmed to behave like this._
 
 ### Push and pop excercise
 
