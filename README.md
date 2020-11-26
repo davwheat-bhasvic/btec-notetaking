@@ -2,7 +2,7 @@
   <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-# BTEC Computing Notetaking  <!-- omit in toc -->
+# BTEC Computing Notetaking <!-- omit in toc -->
 
 This is a directory listing of my notes. Pages are ordered by the date they were created.
 
@@ -40,4 +40,4 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 
 ### Data structures
 
-[Data structures](Data%20structures.md)
+[Data structures: arrays, matrices, linked lists, stacks, queues, indices.](Data%20structures.md)
