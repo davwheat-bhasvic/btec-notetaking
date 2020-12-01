@@ -6,9 +6,12 @@
 
 ## Contents <!-- omit in toc -->
 
+- [Data structure definition](#data-structure-definition)
 - [Static and dynamic data structures](#static-and-dynamic-data-structures)
   - [Static](#static)
-- [Dynamic](#dynamic)
+  - [Dynamic](#dynamic)
+- [1D Arrays](#1d-arrays)
+  - [Storing arrays in memory](#storing-arrays-in-memory)
 - [Stacks](#stacks)
   - [Push and pop excercise](#push-and-pop-excercise)
     - [Answers](#answers)
@@ -29,6 +32,11 @@
     - [Multiplication](#multiplication)
       - [Question](#question)
 
+## Data structure definition
+
+In computer programming, a data structure is a predefined format for storing, accessing, and processing data in a computer program.
+
+Unlike a data type, which defines a way to hold a piece of data, data structures are designed for holding multiple pieces of data in a structured way.
 
 ## Static and dynamic data structures
 
@@ -49,7 +57,7 @@ Static data types can cause issues:
 - if you end up trying to save/read from higher memory addresses than you've reserved, the program will crash
 - if you reserve too much memory, you're being wasteful
 
-## Dynamic
+### Dynamic
 
 Dynamic variables don't have a fixed size in memory. An example of this is linked lists.
 
@@ -58,6 +66,28 @@ With linked lists, each item has a pointer to the memory address where the next 
 When you add more items to the list, more memory is allocated. Dynamic data is much easier to work with because of this.
 
 Queues and stacks are examples of dynamic data structures, which we will learn about later in this document.
+
+## 1D Arrays
+
+Arrays are containers which can be used to store a specific amount of a data type (a way to define how data should be interpreted and transformed from its binary representation).
+
+For example, you might have an array of integers for storing a list of a class's test scores.
+
+Arrays can be thought of as lists. An array is initialised with a size, which is the maximum number of values (called elements) which can be contained in it.
+
+The elements in the array can then be accessed using an index. Accessing the array with an index (usually like `arrayName[index]`, such as `scores[3]`) provides the value at that position in the array.
+
+Indexes are usually 0-indexed in most languages, meaning an index of `0` provides the 1st value, and in index of `1` provides the 2nd value.
+
+### Storing arrays in memory
+
+The array variable stores a value called a **pointer**. This pointer points to the memory address where the array begins.
+
+In low-level languages, this is why accessing an array variable without an index provides a number: this is the address in memory where the array data is stored.
+
+> ![](img/1d-array-memory.png)
+>
+> Diagram showing how 1D arrays are accessed in most languages
 
 ## Stacks
 
