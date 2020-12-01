@@ -23,6 +23,7 @@
     - [Answers](#answers-1)
   - [Where are queues actually used?](#where-are-queues-actually-used)
 - [Matrices](#matrices)
+  - [Matrices vs Arrays](#matrices-vs-arrays)
   - [Accessing data in matrices](#accessing-data-in-matrices)
   - [Matrix as 2D array example](#matrix-as-2d-array-example)
   - [Storing matrices - column-major and row-major](#storing-matrices---column-major-and-row-major)
@@ -109,11 +110,13 @@ You'd access the array of student 1's results using `studentScores[0]`, and stud
 
 ## Linked lists
 
-Linked lists are mutable (changable) collections of items that grow and shrink as needed. They are mutable as the number of items in them can increase or decrease at runtime.
+Linked lists are mutable (changeable) collections of items that grow and shrink as needed. They are mutable as the number of items in them can increase or decrease at runtime.
 
 Data in a linked list is not stored in a single block of memory. Instead, each node of the array contains the data for that node, and a pointer to the address in memory which stores the next node.
 
 This allows the list to expand as needed as more nodes can be added by setting the memory address in the previous node. This also allows for nodes to be inserted mid-list.
+
+The pointer at the start node in a list is called the starting pointer. This points to the first piece of data in the list.
 
 The pointer at the last node in a list is `null` (all zeroes).
 
@@ -208,6 +211,14 @@ A matrix's size is represented by its **dimensions** (also known as its order). 
 ```
 
 This matrix would have the dimensions `3x2`.
+
+### Matrices vs Arrays
+
+Arrays can be any number of dimensions: you can have 1D (a single collection), 2D (like a matrix), 3D (like an array of tables).
+
+Matrices are a fixed table construct: 2D only, with a fixed count of rows and columns.
+
+Matrices only have numbers!
 
 ### Accessing data in matrices
 
