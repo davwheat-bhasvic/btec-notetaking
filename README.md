@@ -14,7 +14,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
   - [Parallel processing](#parallel-processing)
   - [Performance factors](#performance-factors)
   - [Features and implications of different microarchitectures](#features-and-implications-of-different-microarchitectures)
-  - [Data structures](#data-structures)
+  - [Organisation of data](#organisation-of-data)
 
 ## Architecture
 
@@ -38,6 +38,6 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 
 [Embedded vs mobile vs desktop vs laptop vs server computers.](Features%20and%20implications%20of%20different%20microarchitectures.md)
 
-### Data structures
+### Organisation of data
 
-[Data structures: arrays, matrices, linked lists, stacks, queues, indices.](Data%20structures.md)
+[Organisation of data: arrays, matrices, linked lists, stacks, queues, indices.](Organisation%20of%20data.md)
