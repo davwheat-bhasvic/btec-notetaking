@@ -2,7 +2,7 @@
   <img src="https://github.com/davwheat-bhasvic/common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
-# Interrupts <!-- omit in toc -->
+# Organisation of data <!-- omit in toc -->
 
 ## Contents <!-- omit in toc -->
 
