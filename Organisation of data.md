@@ -13,6 +13,7 @@
 - [1D Arrays](#1d-arrays)
   - [Storing arrays in memory](#storing-arrays-in-memory)
 - [2D arrays](#2d-arrays)
+- [Linked lists](#linked-lists)
 - [Stacks](#stacks)
   - [Push and pop excercise](#push-and-pop-excercise)
     - [Answers](#answers)
@@ -76,7 +77,7 @@ For example, you might have an array of integers for storing a list of a class's
 
 Arrays can be thought of as lists. An array is initialised with a size, which is the maximum number of values (called elements) which can be contained in it.
 
-The length of an array is immutable in most languages. This means that, after it's set, it cannot change.
+Arrays are immutable in most languages as the number of items they store cannot increase or decrease at runtime. This means that, after it's set, it cannot change.
 
 The elements in the array can then be accessed using an index. Accessing the array with an index (usually like `arrayName[index]`, such as `scores[3]`) provides the value at that position in the array.
 
@@ -105,6 +106,20 @@ For example you might use a 2D array of integers to store a class's scores per q
 | Student 3 |   1   |   0   |   2   |   5   |
 
 You'd access the array of student 1's results using `studentScores[0]`, and student 1's Q2 result using `studentScores[0][1]`.
+
+## Linked lists
+
+Linked lists are mutable (changable) collections of items that grow and shrink as needed. They are mutable as the number of items in them can increase or decrease at runtime.
+
+Data in a linked list is not stored in a single block of memory. Instead, each node of the array contains the data for that node, and a pointer to the address in memory which stores the next node.
+
+This allows the list to expand as needed as more nodes can be added by setting the memory address in the previous node. This also allows for nodes to be inserted mid-list.
+
+The pointer at the last node in a list is `null` (all zeroes).
+
+> ![](img/linked-lists.png)
+>
+> Example of a linked list
 
 ## Stacks
 
