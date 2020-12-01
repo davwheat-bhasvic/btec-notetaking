@@ -12,6 +12,7 @@
   - [Dynamic](#dynamic)
 - [1D Arrays](#1d-arrays)
   - [Storing arrays in memory](#storing-arrays-in-memory)
+- [2D arrays](#2d-arrays)
 - [Stacks](#stacks)
   - [Push and pop excercise](#push-and-pop-excercise)
     - [Answers](#answers)
@@ -75,6 +76,8 @@ For example, you might have an array of integers for storing a list of a class's
 
 Arrays can be thought of as lists. An array is initialised with a size, which is the maximum number of values (called elements) which can be contained in it.
 
+The length of an array is immutable in most languages. This means that, after it's set, it cannot change.
+
 The elements in the array can then be accessed using an index. Accessing the array with an index (usually like `arrayName[index]`, such as `scores[3]`) provides the value at that position in the array.
 
 Indexes are usually 0-indexed in most languages, meaning an index of `0` provides the 1st value, and in index of `1` provides the 2nd value.
@@ -88,6 +91,20 @@ In low-level languages, this is why accessing an array variable without an index
 > ![](img/1d-array-memory.png)
 >
 > Diagram showing how 1D arrays are accessed in most languages
+
+## 2D arrays
+
+A 2D array is literally just an array of arrays! It's easiest to think of them as tables.
+
+For example you might use a 2D array of integers to store a class's scores per question in a test (`studentScores`):
+
+|           |  Q1   |  Q2   |  Q3   |  Q4   |
+| --------: | :---: | :---: | :---: | :---: |
+| Student 1 |   3   |   2   |   4   |   1   |
+| Student 2 |   4   |   3   |   1   |   2   |
+| Student 3 |   1   |   0   |   2   |   5   |
+
+You'd access the array of student 1's results using `studentScores[0]`, and student 1's Q2 result using `studentScores[0][1]`.
 
 ## Stacks
 
