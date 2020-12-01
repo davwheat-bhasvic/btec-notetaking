@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../../common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
+  <img src="https://github.com/davwheat-bhasvic/common-assets/blob/main/images/bhasvic/bhasvic-rect-hills-text-small.png?raw=true">
 </p>
 
 # Parallel processing <!-- omit in toc -->
