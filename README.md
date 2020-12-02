@@ -14,7 +14,9 @@ This is a directory listing of my notes. Pages are ordered by the date they were
   - [Parallel processing](#parallel-processing)
   - [Performance factors](#performance-factors)
   - [Features and implications of different microarchitectures](#features-and-implications-of-different-microarchitectures)
+- [Data](#data)
   - [Organisation of data](#organisation-of-data)
+  - [Data transmission](#data-transmission)
 
 ## Architecture
 
@@ -38,6 +40,12 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 
 [Embedded vs mobile vs desktop vs laptop vs server computers.](Features%20and%20implications%20of%20different%20microarchitectures.md)
 
+
+## Data
 ### Organisation of data
 
 [Organisation of data: arrays, matrices, linked lists, stacks, queues, indices.](Organisation%20of%20data.md)
+
+### Data transmission
+
+[Wireless and wired, LANs, WANs, simplex, duplex, point to point, multi-drop](Data%20transmission.md)
