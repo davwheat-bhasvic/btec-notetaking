@@ -92,7 +92,7 @@ In low-level languages, this is why accessing an array variable without an index
 
 > ![](img/1d-array-memory.png)
 >
-> Diagram showing how 1D arrays are accessed in most languages
+> _Diagram showing how 1D arrays are accessed in most languages_
 
 ## 2D arrays
 
@@ -122,7 +122,7 @@ The pointer at the last node in a list is `null` (all zeroes).
 
 > ![](img/linked-lists.png)
 >
-> Example of a linked list
+> _Example of a linked list_
 
 ## Stacks
 
@@ -136,7 +136,7 @@ Stacks are allocated memory dynamically: the grow and shrink as needed.
 
 > ![](img/plate-stack.jpg)
 >
-> A stack of plates!
+> _A stack of plates!_
 
 _Please remember that the idea of a "stack" of items on top of each other is a way for humans to think of it. It's not stored like this in memory, but is instead programmed to behave like this._
 
@@ -250,7 +250,7 @@ In **column-major**, we go down the columns first, and then move to the next row
 
 > ![](img/matrix-store-orders.jpg)
 >
-> A diagram showing the difference between row-major and column-major ordering.
+> _A diagram showing the difference between row-major and column-major ordering._
 
 In an exam, you might be told an ordering method, and be given an array/matrix, and asked for the value at a certain index in memory.
 
