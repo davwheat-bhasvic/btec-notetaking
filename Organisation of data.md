@@ -100,11 +100,11 @@ A 2D array is literally just an array of arrays! It's easiest to think of them a
 
 For example you might use a 2D array of integers to store a class's scores per question in a test (`studentScores`):
 
-|           |  Q1   |  Q2   |  Q3   |  Q4   |
-| --------: | :---: | :---: | :---: | :---: |
-| Student 1 |   3   |   2   |   4   |   1   |
-| Student 2 |   4   |   3   |   1   |   2   |
-| Student 3 |   1   |   0   |   2   |   5   |
+|           | Q1  | Q2  | Q3  | Q4  |
+| --------: | :-: | :-: | :-: | :-: |
+| Student 1 |  3  |  2  |  4  |  1  |
+| Student 2 |  4  |  3  |  1  |  2  |
+| Student 3 |  1  |  0  |  2  |  5  |
 
 You'd access the array of student 1's results using `studentScores[0]`, and student 1's Q2 result using `studentScores[0][1]`.
 
@@ -230,11 +230,11 @@ For example `[4, 2]` (zero-indexed) is the 5th row, and 3rd column.
 
 ### Matrix as 2D array example
 
-|       |       |       |       |       |
-| :---: | :---: | :---: | :---: | :---: |
-|   4   |   2   |   1   |   3   |   5   |
-|   7   |   9   |  10   |   7   |   8   |
-|  14   |  13   |  15   |  11   |  12   |
+|     |     |     |     |     |
+| :-: | :-: | :-: | :-: | :-: |
+|  4  |  2  |  1  |  3  |  5  |
+|  7  |  9  | 10  |  7  |  8  |
+| 14  | 13  | 15  | 11  | 12  |
 
 1. `[0, 3]` - `3`
 2. `[2, 2]` - `15`
