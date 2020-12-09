@@ -201,6 +201,18 @@ There are several ways that we can connect different LANs together. Some of the 
 - allows for DRM protection such as HDCP
 - lossless
 - has issues over longer distances (e.g. 35m+)
+- supports very high reoslutions (4K at 60 Hz)
+
+**DVI**
+
+![](img/dvi.jpg)
+
+- older standard
+- can transfer analog or digital video
+- does not support audio transfer
+- large, bulky (40mm connector vs 21mm for HDMI)
+- no DRM/security protection (e.g. no HDCP)
+- doesn't support higher resolutions (1920x1200 @ 60 Hz max)
 
 ## Wireless communication methods
 
