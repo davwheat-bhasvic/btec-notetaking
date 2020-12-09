@@ -201,6 +201,8 @@ There are several ways that we can connect different LANs together. Some of the 
 
 **HDMI**
 
+![](img/hdmi.jpg)
+
 - used to transfer video and audio digitally
 - allows for DRM protection such as HDCP
 - lossless
