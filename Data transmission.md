@@ -13,6 +13,11 @@
   - [Synchronous transmission](#synchronous-transmission)
   - [Asynchronous transmission](#asynchronous-transmission)
   - [Comparison table](#comparison-table)
+- [Parallel and serial data transmission](#parallel-and-serial-data-transmission)
+  - [Serial transmission](#serial-transmission)
+    - [Why do we use it?](#why-do-we-use-it)
+  - [Parallel transmission](#parallel-transmission)
+    - [Why do we use it?](#why-do-we-use-it-1)
 - [Types of network](#types-of-network)
   - [LAN](#lan)
     - [Benefits of LANs](#benefits-of-lans)
@@ -64,6 +69,38 @@
 | ------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | Asynchronous transmission | Less prone to corruption/errors<br>Easy to resend lost pieces of data | Slower<br>Requires more processing (need to reassemble)      | For scenarios where efficiency, routing, and error correction is key (e.g. web browsing) |
 | Synchronous transmission  | Faster<br>Doesn't suffer from collisions as often                     | If data is corrupted or lost, all of the data must be resent | To send large amounts of data from one location to another quickly                       |
+
+## Parallel and serial data transmission
+
+Data transmission can be either serial or parallel. This refers to how much data can be transferred at the same.
+
+![](img/parallel-vs-serial-transmission.png)
+
+### Serial transmission
+
+- only one bit can be sent at a time
+- bits are sent right after each other
+- data must be broken into each individual bit
+- with modern technology, serial is faster than parallel as we can increase frequency of data being sent
+
+#### Why do we use it?
+
+- cheaper: less cable
+- only one wire, so we have less interference (crosstalk)
+- bits sent in a specific order
+  - parallel transfer can encounter data skewing over long distances (where bits arrive at slightly different times)
+
+### Parallel transmission
+
+- multiple bits are sent at once
+- more expensive as it uses multiple wires
+- frequency can be increased, but can lead to data skewing if too high
+- faster at same frequency as serial
+- high frequencies are very difficult to use, so serial works out faster in almost all cases
+
+#### Why do we use it?
+
+We don't for most things. PATA (Parallel ATA), also known as IDE, used to be common for storage in computers until the mid 2000s when we switched to SATA (Serial ATA).
 
 ## Types of network
 
