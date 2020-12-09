@@ -143,7 +143,7 @@ There are several ways that we can connect different LANs together. Some of the 
 - Used in newer devices
 - Supports high speed data transfer
 - Common in flash drives and external hard drives where speed is key
-- Widespead and cheap
+- Widespread and cheap
 - Easy to damage
 
 **USB Type B**
@@ -152,7 +152,7 @@ There are several ways that we can connect different LANs together. Some of the 
 
 - Usually used in secondary ("slave") devices (devices which are controlled by another, e.g. a printer)
 - Uses standard USB protocols: it's just a different connector
-- Not very common anymore: tends to be replace with USB Type Micro B or, more recently, USB Type C
+- Not very common any more: tends to be replace with USB Type Micro B or, more recently, USB Type C
 
 **USB C**
 
@@ -207,7 +207,7 @@ There are several ways that we can connect different LANs together. Some of the 
 - allows for DRM protection such as HDCP
 - lossless
 - has issues over longer distances (e.g. 35m+)
-- supports very high reoslutions (4K at 60 Hz)
+- supports very high resolutions (4K at 60 Hz)
 
 **DVI**
 
