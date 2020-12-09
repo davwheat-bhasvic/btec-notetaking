@@ -173,6 +173,8 @@ There are several ways that we can connect different LANs together. Some of the 
 
 **Thunderbolt**
 
+![](img/thunderbolt.jpg)
+
 - band name of a transfer protocol designed by Intel
 - now being opened to other manufacturers (USB 4)
 - supports multiple protocols inside it (DisplayPort, Ethernet)
