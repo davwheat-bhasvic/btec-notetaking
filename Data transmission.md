@@ -226,6 +226,10 @@ Wireless means no wires!
 
 **WiFi**
 
+![](img/wifi-router.jpg)
+
+- Operates under one of 2 bands: 2.4 GHz and 5 GHz
+- Very high bandwidth (up to 1866 Mbps)
 - Normally used to connect laptops/phones/PCs to a LAN
 
 **Bluetooth**
@@ -238,9 +242,20 @@ Wireless means no wires!
 
 **Mobile network infrastructure (UMTS/HSDPA/LTE)**
 
+![](img/phone-mast.jpg)
+
 - For longer distance
 - Requires authentication, usually provided via a SIM or eSIM
 - Provided via microwaves at varying frequencies (lower freqs travel further)
+
+**Infrared (IR)**
+
+![](img/ir.jpg)
+
+- used mainly in older computers
+- low transfer rate, but very low power
+- almost exclusively used in remote controls now
+- unreliable for long-term communication (errors are common)
 
 ## Data packets
 
