@@ -28,6 +28,7 @@
   - [Packet headers](#packet-headers)
   - [Packet footer](#packet-footer)
 - [Packet switching](#packet-switching)
+- [Circuit switching](#circuit-switching)
 - [Transmission protocols](#transmission-protocols)
 
 ## Communication channels
@@ -304,6 +305,14 @@ Using packets means that, if a packet gets lost or corrupted, we can ask for it 
 Packets are sent independently over the network by whatever route is fastest for that packet. This can causing packets to be received in a different order, requiring them to be reconstructed into the original data at the recipient's device.
 
 Sending packets over different routes is called **packet switching**.
+
+## Circuit switching
+
+Circuit switching is an alternative to packet switching. It's more commonly used inside LANs, or for older systems, such as telephone calls.
+
+There is a single physical path between every device, and all packets to the devices always take the same route. Packets can't be sent through different routes -- they must all take the same one route.
+
+![](img/circuitswitching.jpg)
 
 ## Transmission protocols
 
