@@ -22,6 +22,7 @@
     - [Advantages of WANs](#advantages-of-wans)
     - [Disadvantages of WANs](#disadvantages-of-wans)
 - [Typical home/organisation network](#typical-homeorganisation-network)
+- [Wired communication methods](#wired-communication-methods)
 - [Wireless communication methods](#wireless-communication-methods)
 - [Data packets](#data-packets)
   - [Packet headers](#packet-headers)
@@ -123,6 +124,83 @@ There are several ways that we can connect different LANs together. Some of the 
 > ![](img/standard-home-network.png)
 >
 > _A diagram showing a "standard" home/small business network_
+
+## Wired communication methods
+
+**USB 2.0**
+
+![](img/usb-2.0.png)
+
+- Used in older devices
+- Being phased out on high-bandwidth devices (e.g. USB flash drives) in favour of USB 3+
+- Often used for peripheral devices (mice, keyboards, printers), and for power transfer
+- Very widespread and cheap
+
+**USB 3.0**
+
+![](img/usb-3.0.png)
+
+- Used in newer devices
+- Supports high speed data transfer
+- Common in flash drives and external hard drives where speed is key
+- Widespead and cheap
+- Easy to damage
+
+**USB Type B**
+
+![](img/usb-type-b.png)
+
+- Usually used in secondary ("slave") devices (devices which are controlled by another, e.g. a printer)
+- Uses standard USB protocols: it's just a different connector
+- Not very common anymore: tends to be replace with USB Type Micro B or, more recently, USB Type C
+
+**USB C**
+
+- device agnostic (used on primary and secondary devices)
+- supports very high data transfer speed
+- supports power delivery (can be used to charge laptops)
+- not a protocol in itself: it is just a connector
+- supports multiple connection protocols, including
+  - USB 1, 2, 3, and 4
+  - Thunderbolt 3
+  - DisplayPort
+  - HDMI
+- durable
+- becoming cheaper and more widespread
+- reversible (better user experience)
+
+**Thunderbolt**
+
+- band name of a transfer protocol designed by Intel
+- now being opened to other manufacturers (USB 4)
+- supports multiple protocols inside it (DisplayPort, Ethernet)
+- multiple different connectors used with the protocol (e.g. USB C)
+
+**Ethernet**
+
+![](img/rj45-ethernet.jpg)
+
+- most commonly used for network connections
+- supports high speeds (up to 1 Gbps is common, 10 Gbps is usually just for enterprises)
+- cheap to produce and use
+- on almost all devices, requiring little or no special hardware
+
+**Fibre optic**
+
+![](img/fibre-optic.jpg)
+
+- works by sending signals as streams of light
+- can be used with almost any protocol
+- common for very high speed and low latency networking
+- data transfer is almost instant
+- fragile and expensive
+
+**HDMI**
+
+- used to transfer video and audio digitally
+- allows for DRM protection such as HDCP
+- lossless
+- has issues over longer distances (e.g. 35m+)
 
 ## Wireless communication methods
 
