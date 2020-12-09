@@ -30,6 +30,7 @@
 - [Packet switching](#packet-switching)
 - [Circuit switching](#circuit-switching)
 - [Transmission protocols](#transmission-protocols)
+  - [Table of protocols](#table-of-protocols)
 
 ## Communication channels
 
@@ -328,3 +329,16 @@ During a handshake the computers decide...
 - data coding (e.g. ASCII, UTF-8)
 - error correction/handling (e.g. checksums, parity)
 - any compression (e.g. gzip, brotli)
+
+### Table of protocols
+
+| Protocol | Full name                                       | Purpose                                                                                                                                                                                                                    |
+| -------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HTTP     | Hypertext transfer protocol                     | Used for transmitting data over the internet, most commonly webpages, but can be any file format.                                                                                                                          |
+| HTTPS    | Hypertext transfer protocol secured             | A secured, encrypted version of HTTP meant for safer transmission of confidential or personal information.                                                                                                                 |
+| POP3     | Post Office Protocol 3                          | Used to download emails from a central server. Emails deleted after being downloaded.                                                                                                                                      |
+| IMAP4    | Internet Message Access Protocol 4              | Used to synchronise emails from a central server to multiple devices. Emails remain on the central server unless manually deleted. State (read/unread, etc.) is synced between devices.                                    |
+| SMTP     | Simple Mail Transfer Protocol                   | Used to send emails. Email contents are sent to an SMTP Email server, then routed and transmitted to the recipient's server.                                                                                               |
+| VoIP     | Voice over Internet Protocol                    | Used for making audio calls over the internet. Low bandwidth required, so it prioritises low latency.                                                                                                                      |
+| FTP      | File Transfer Protocol                          | Used to explore file and directory structures of a computer over the internet. Can be used to upload or download files from said server.                                                                                   |
+| TCP/IP   | Transmission Control Protocol/Internet Protocol | Used to control how data is sent across networks. All packets are guaranteed to arrive (if it doesn't arrive the first time, the server will re-send them). Prioritises stability and no data loss over speed and latency. |
