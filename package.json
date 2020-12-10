@@ -3,6 +3,6 @@
     "format": "prettier --write **/*.{md,json}"
   },
   "dependencies": {
-    "prettier": "^2.2.0"
+    "prettier": "^2.2.1"
   }
 }
