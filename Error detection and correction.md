@@ -12,14 +12,16 @@
     - [Pros](#pros)
     - [Cons](#cons)
   - [Parity scheme](#parity-scheme)
+    - [Pros](#pros-1)
+    - [Cons](#cons-1)
     - [Example of even parity](#example-of-even-parity)
   - [Check digits](#check-digits)
   - [Checksum](#checksum)
-    - [Pros](#pros-1)
-    - [Cons](#cons-1)
-  - [Cyclic redundancy check (CRC)](#cyclic-redundancy-check-crc)
     - [Pros](#pros-2)
     - [Cons](#cons-2)
+  - [Cyclic redundancy check (CRC)](#cyclic-redundancy-check-crc)
+    - [Pros](#pros-3)
+    - [Cons](#cons-3)
   - [Overall implications of error detection](#overall-implications-of-error-detection)
 - [Error correction](#error-correction)
   - [Automatic repeat requests (ARQ)](#automatic-repeat-requests-arq)
@@ -84,6 +86,15 @@ Another simple form of error detection.
 Instead of repeating the entire piece of data, we just add another bit to check if the rest of the data is likely to be correct. This is more commonly used within components of a computer, such as when copying to/from RAM or cache.
 
 Even parity works by counting the number of 1 bits in a word (group of bits). If it's an odd number, we add a parity bit of `1` to make the number of `1`s even. Otherwise we keep it as a `0`.
+
+#### Pros
+
+- Simple to set up
+
+#### Cons
+
+- Won't catch all errors
+- Shouldn't be used when reliability is critical
 
 #### Example of even parity
 
