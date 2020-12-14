@@ -17,6 +17,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 - [Data](#data)
   - [Organisation of data](#organisation-of-data)
   - [Data transmission](#data-transmission)
+  - [Error detection and correction](#data-transmission)
 
 ## Architecture
 
@@ -48,4 +49,8 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 
 ### Data transmission
 
-[Wireless and wired, LANs, WANs, simplex, duplex, point to point, multi-drop](Data%20transmission.md)
+[Wireless and wired, LANs, WANs, simplex, duplex, point to point, and multi-drop.](Data%20transmission.md)
+
+### Error detection and correction
+
+[How errors occur, detection methods, and correction methods.](Error%20detection%20and%20correction.md)
