@@ -43,12 +43,12 @@ SoCs tend to require far less power to perform their functions. This is importan
 
 ### Mobile CPUs & RISC
 
-Mobile CPUs tend to use the ARM instruction set, which is a [RISC-based](Instruction%20sets.md#risc-and-cisc) instruction set.
+Mobile CPUs tend to use the ARM instruction set, which is a [RISC-based](Instruction sets.md#risc-and-cisc) instruction set.
 
 | Pros                                                                        | Cons                                                                                     |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Need fewer transistors to execute instructions, so the CPUs can be smaller. | Increased number of instructions needed for the same process, meaning more RAM needed.   |
-|                                                                             | ARM CPUs are compatible with [pipelining](Parallel%20processing.md#method-1-pipelining). |
+|                                                                             | ARM CPUs are compatible with [pipelining](Parallel processing.md#method-1-pipelining). |
 
 #### Task
 

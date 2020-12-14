@@ -17,7 +17,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 - [Data](#data)
   - [Organisation of data](#organisation-of-data)
   - [Data transmission](#data-transmission)
-  - [Error detection and correction](#data-transmission)
+  - [Error detection and correction](#error-detection-and-correction)
 
 ## Architecture
 
@@ -27,30 +27,30 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 
 ### Instruction sets
 
-[Instruction sets, assembly, little man computer, RISC, CISC, and more.](Instruction%20sets.md)
+[Instruction sets, assembly, little man computer, RISC, CISC, and more.](Instruction sets.md)
 
 ### Parallel processing
 
-[Multi-threading, multi processor execution, and more.](Parallel%20processing.md)
+[Multi-threading, multi processor execution, and more.](Parallel processing.md)
 
 ### Performance factors
 
-[The factors that affect CPU performance and execution speed](Performance%20factors.md)
+[The factors that affect CPU performance and execution speed](Performance factors.md)
 
 ### Features and implications of different microarchitectures
 
-[Embedded vs mobile vs desktop vs laptop vs server computers.](Features%20and%20implications%20of%20different%20microarchitectures.md)
+[Embedded vs mobile vs desktop vs laptop vs server computers.](Features and implications of different microarchitectures.md)
 
 ## Data
 
 ### Organisation of data
 
-[Organisation of data: arrays, matrices, linked lists, stacks, queues, indices.](Organisation%20of%20data.md)
+[Organisation of data: arrays, matrices, linked lists, stacks, queues, indices.](Organisation of data.md)
 
 ### Data transmission
 
-[Wireless and wired, LANs, WANs, simplex, duplex, point to point, and multi-drop.](Data%20transmission.md)
+[Wireless and wired, LANs, WANs, simplex, duplex, point to point, and multi-drop.](Data transmission.md)
 
 ### Error detection and correction
 
-[How errors occur, detection methods, and correction methods.](Error%20detection%20and%20correction.md)
+[How errors occur, detection methods, and correction methods.](Error detection and correction.md)
