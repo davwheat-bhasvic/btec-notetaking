@@ -19,6 +19,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
   - [Data transmission](#data-transmission)
   - [Error detection](#error-detection)
   - [Error correction](#error-correction)
+  - [Data storage, backups, and recovery](#data-storage-backups-and-recovery)
 
 ## Architecture
 
@@ -59,3 +60,7 @@ This is a directory listing of my notes. Pages are ordered by the date they were
 ### Error correction
 
 [Methods of correcting errors](Error correction.md)
+
+### Data storage, backups, and recovery
+
+[Data storage, backups, and recovery](Data storage backups and recovery.md)
